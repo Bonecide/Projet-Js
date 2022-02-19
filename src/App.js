@@ -9,9 +9,8 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <FreshCoffee/>
-      <Catalog/>
       <Slider/>      
+      <Catalog/>
     </div>
   );
 }
