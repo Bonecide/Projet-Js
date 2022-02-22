@@ -1,7 +1,6 @@
 import CatalogButton from '../../../Header/Button';
 import coffee from '../../../../img/espresso.svg';
 import seeds from '../../../../img/coffee seeds.svg'
-import { display } from '@mui/system';
 
 export default function FreshCoffee(){
 

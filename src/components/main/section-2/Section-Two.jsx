@@ -29,14 +29,13 @@ export default function Catalog () {
     return (
         <div className="container">
             <h2>Каталоги нашей продукции</h2>
-            <Grid container spacing={3}
-            // justifyContent="center"
-            // alignItems="center"
+            <Grid container
+            columns={{xs: 3, sm: 6, md: 12}}
+            spacing={3}
+            sx={{margin:"0 auto"}}
             >
             {positions.map((position) =>(
-                <Grid key={position.id} item xs={3} >
                      <CatalogPosition position={position} />
-                </Grid>
             ))}
             </Grid>
         </div>
