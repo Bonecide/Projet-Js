@@ -3,10 +3,9 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import SearchIcon from '@mui/icons-material/Search';
 import logo from '../../img/logo.svg'
-
-
-import CatalogButton from "./Button";
 import Search from "./search";
+
+
 export default function Header(){
  const [value,setValue] = useState('none')
  const [visible,setVisible] = useState('inline')
@@ -20,17 +19,7 @@ const toggle = (values) => {
         setVisible('inline')
     }
 }
-    const iconStyle = {
-        width:'22px',
-        height:'22px',
-    
-    }
-    const cartStyle = {
-        width:'30px',
-    }
-    const ml = {
-        marginLeft: '84px'
-    }
+   
     return(
  <div style={{background:'transparent'}}>
      <div className="Head" style={{display: 'flex',marginTop:'20px', width:'100%',boxShadow: '0px 5px 20px rgba(157, 157, 157, 0.25)'}}>
@@ -54,7 +43,7 @@ const toggle = (values) => {
             <span style={{marginLeft:'40px'}}>
             <AccountCircleIcon/>
             </span>
-        </div>
+    </div>
     </div>
      </nav>
      </div>
