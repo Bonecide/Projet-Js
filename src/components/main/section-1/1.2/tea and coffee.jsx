@@ -1,4 +1,4 @@
-import CatalogButton from './../../../Header/Button';
+import CatalogButton from '../../../common components/Button';
 
 export default function TeaAndCoffee(){
 

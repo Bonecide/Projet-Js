@@ -1,12 +1,8 @@
-import CatalogButton from '../../../Header/Button';
+import CatalogButton from '../../../common components/Button';
 import coffee from '../../../../img/espresso.svg';
 import seeds from '../../../../img/coffee seeds.svg'
 
 export default function FreshCoffee(){
-
-
-
-
     return(
         <div className='container' style={{marginTop:'100px' , position:'relative',height:'100vh'}}>
          <div style={{width:'60%'}} className="info-coffee">

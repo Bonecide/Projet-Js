@@ -4,6 +4,8 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import SearchIcon from '@mui/icons-material/Search';
 import logo from '../../img/logo.svg'
 import Search from "./search";
+
+
 export default function Header(){
  const [value,setValue] = useState('none')
  const [visible,setVisible] = useState('inline')
@@ -18,6 +20,7 @@ const toggle = (values) => {
     }
 }
     
+   
     return(
  <div style={{background:'transparent'}}>
      <div className="Head" style={{display: 'flex',marginTop:'20px', width:'100%',boxShadow: '0px 5px 20px rgba(157, 157, 157, 0.25)'}}>
@@ -29,7 +32,7 @@ const toggle = (values) => {
     </div>
     <div style={{position:'absolute',right:'475px',top:'50px'}}>
         <b style={{display: visible}}>Каталог товаров</b>
-        <b style={{marginLeft:'66px', display: visible}}>Блог</b>
+        <b style={{marginLeft:'66px', display: visible}}>Блог!</b>
         <b style={{marginLeft:'66px', display: visible}}>Контакты</b> 
         <div className="icon-container" style={{right:-400,top:0, position:'absolute', display:'flex'}}>
             <span onClick={()=> toggle(value) } style={{cursor:'pointer'}}>
@@ -41,7 +44,7 @@ const toggle = (values) => {
             <span style={{marginLeft:'40px'}}>
             <AccountCircleIcon/>
             </span>
-        </div>
+    </div>
     </div>
      </nav>
      </div>
