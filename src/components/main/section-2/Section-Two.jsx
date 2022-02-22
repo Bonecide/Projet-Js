@@ -28,7 +28,7 @@ export default function Catalog () {
 
     return (
         <div className="container">
-            <h2>Каталоги нашей продукции</h2>
+            <h2>Каталоги нашей продукции(изменено)</h2>
             <Grid container
             columns={{xs: 3, sm: 6, md: 12}}
             spacing={3}
