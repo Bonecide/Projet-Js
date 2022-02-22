@@ -18,6 +18,7 @@
     display: block;
     background-color: #F9B300;
     color: white;
+    cursor: pointer;
 }
 .section-two__position:hover p{
     font-size: 27px;
