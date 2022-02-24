@@ -1,0 +1,11 @@
+.sales__Goods {
+    align-items: center;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+.midle-part {
+    width: 100%;
+}
+.sales__Goods:hover {
+    background: rgb(218, 216, 216);
+}

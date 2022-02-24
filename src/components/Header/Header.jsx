@@ -23,7 +23,7 @@ const toggle = (values) => {
     return(
  <div style={{background:'transparent'}}>
      <div className="Head" style={{display: 'flex',marginTop:'20px', width:'100%',boxShadow: '0px 5px 20px rgba(157, 157, 157, 0.25)'}}>
-     <nav className="NavBar">
+     <nav className="NavBar" style={{cursor:'pointer'}}>
     <div>
          <img style={{ width:'179px', height:'80px',marginLeft:'84px'}} src={logo} alt="лого" />
          <Search value={value} />
@@ -31,7 +31,7 @@ const toggle = (values) => {
     </div>
     <div style={{position:'absolute',right:'475px',top:'50px'}}>
         <b style={{display: visible}}>Каталог товаров</b>
-        <b style={{marginLeft:'66px', display: visible}}>Блог!</b>
+        <b style={{marginLeft:'66px', display: visible}}>Блог</b>
         <b style={{marginLeft:'66px', display: visible}}>Контакты</b> 
         <div className="icon-container" style={{right:-400,top:0, position:'absolute', display:'flex'}}>
             <span onClick={()=> toggle(value) } style={{cursor:'pointer'}}>

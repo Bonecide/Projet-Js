@@ -1,9 +1,17 @@
 @import url("fonts/Gilroy/stylesheet.css");
-
-
-*{
+ *{
   font-family: Gilroy;
+} 
+.awssld__controls__arrow-right {
+  --organic-arrow-color: #a6560b;
 }
+.awssld__controls__arrow-left {
+  --organic-arrow-color: #a6560b;
+}
+
+
+::-webkit-scrollbar {width: 0;}
+
 .container {
   width: 90%;
   margin: 0 auto;
